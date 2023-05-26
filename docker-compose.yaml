@@ -14,7 +14,7 @@ services:
     volumes:
       - ./react-docker:/app
     depends_on:
-      - backend
+      - backend 
   backend:
     build:
       context: './express-docker'
